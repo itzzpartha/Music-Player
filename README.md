@@ -9,7 +9,7 @@ Live Link : https://musicplayerapp.freewebhostmost.com/
 
 - Tech Stack : HTML, CSS, and Vanilla JavaScript
 
-How To Use My Project
+How To Use My Project -
 
 - Download all the above files and folders, and maintain the folder structure.
 - Move your songs folder inside the **songs** directory of my project.
