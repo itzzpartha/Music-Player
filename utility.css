@@ -1,0 +1,81 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-grey{
+    background-color: rgb(18,18,18);
+    color: white;
+}
+
+.bg-black{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 20px;
+}
+
+.g-1{
+    gap: 5px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
+/* Scroll Bar -------------------------------------------------------------------------------------*/
+
+/* Apply styles to the scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  /* Handle part of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Track (the area behind the handle) */
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Color of the scrollbar track */
+  }
+  
+  /* Corner area where vertical and horizontal scrollbars meet */
+  ::-webkit-scrollbar-corner {
+    background-color: #222; /* Color of the scrollbar corner */
+  }
+  

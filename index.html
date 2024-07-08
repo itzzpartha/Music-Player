@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <title>Music Player - Music for everyone</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="container bg-black flex">
+      <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="flex justify-between">
+            <div class="logo" style="display: flex;  gap: 10px;">
+              <img src="icons/icon.svg" alt="logo" height="40px" class="invert" />
+              <span style="font-size: 20px; font-weight: bold; line-height: 2; vertical-align: middle;">Music Player</span>
+            </div>
+            <img src="icons/close.svg" alt="home" class="invert close" />
+          </div>
+          <ul>
+            <li>
+              <img src="icons/home.svg" alt="home" class="invert" /><span>Home</span>
+            </li>
+            <li>
+              <img src="icons/search.svg" alt="search" class="invert" /><span>Search</span>
+            </li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img src="icons/playlist.svg" class="invert" alt="" />
+            <h2>Your Library</h2>
+          </div>
+          <div class="songList">
+            <ul>
+              <!-- Songs populated through JS -->
+            </ul>
+          </div>
+        </div>
+        <div class="footer bg-grey rounded m-1">
+          <div>
+            <span>Legal</span>
+          </div>
+          <div>
+            <span>Privacy Policy</span>
+          </div>
+          <div>
+            <span>Cookies</span>
+          </div>
+          <div>
+            <span>About Ads</span>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header rounded">
+          <div class="nav flex g-1">
+            <div class="hamburger">
+              <img src="icons/hamburger.svg" class="invert" alt="hamburger" />
+            </div>
+            <div class="navBackCircle">
+              <img src="icons/back.svg" class="invert" alt="back" />
+            </div>
+            <div class="navBackCircle">
+              <img src="icons/forward.svg" class="invert" alt="forward" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signUpBtn">Sign up</button>
+            <button class="logInBtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <h1>Your Playlists</h1>
+          <div class="cardContainer">
+            <!-- Cards Populated Through JS -->
+          </div>
+        </div>
+
+        <div class="playbar">
+          <div class="player">
+            <div class="trackName">Click On Any Song To Play</div>
+            <div class="songButtons">
+              <img id="previous" src="icons/previous.svg" alt="" />
+              <img id="play" src="icons/play.svg" alt="" />
+              <img id="next" src="icons/next.svg" alt="" />
+            </div>
+            <div class="vol_time">
+              <div class="trackTime"></div>
+              <div class="volume">
+                <img src="icons/volume.svg" alt="">
+                <div class="range flex justify-center items-center">
+                  <input type="range" name="volume">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
